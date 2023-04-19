@@ -1,0 +1,93 @@
+.carousel-wrapper .carousel-caption {
+    position: absolute;
+    right: 50%;
+    bottom: 3.25rem;
+    left: 20%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center;
+}
+
+.carousel-wrapper .carousel-indicators {
+    margin-bottom: -34px;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #412828;
+}
+
+
+.carousel-control-next, .carousel-control-prev {
+    top: unset;
+    bottom: unset;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    background-color: red;
+}
+
+.card{
+    overflow: hidden;
+}
+/* .card img{
+    transition: all 500ms ease-in-out;
+}
+.card:hover img{
+    transform: scaleX(-1);
+} */
+
+
+
+
+/* .card img{
+    animation: test 1s infinite;
+}
+
+@keyframes test {
+    0%{
+        transform: scaleX(1)
+    }
+    100%{
+        transform: scaleX(-1)
+    }
+} */
+
+
+/* .card-title{
+    animation: test1 500ms ease-in-out infinite;
+}
+
+
+@keyframes test1 {
+    0%{
+        transform: translateY(20px);
+    }
+    100%{
+        transform: translateY(-20px);
+    }
+} */
+
+
+.owl-carousel .owl-nav button.owl-next{
+    background-color: aqua;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 24px;
+    transform: translateY(-50%);
+}
+.owl-carousel .owl-nav button.owl-prev{
+    background-color: aqua;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 24px;
+    transform: translateY(-50%);
+}
+
+
+
